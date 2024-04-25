@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>拍卖会</title>
+    <style>
+        body {
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #9A9696;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+
+            grid-template-rows: auto;
+            /* 行高根据内容自动调整 */
+            gap: 0px;
+            /* 网格项之间的间隙 */
+        }
+
+        .grid-item {
+            /* 可以为网格项添加一些样式，比如背景颜色 */
+            background-color: #9A9696;
+            color: white;
+            padding: 0px;
+            text-align: center;
+            justify-content: flex-end;
+            /* 垂直对齐底部 */
+        }
+
+        .grid-item img {
+            height: 500px;
+            /* 设置图片高度 */
+            width: auto;
+            /* 设置图片宽度 */
+            padding: 30px;
+        }
+
+        .logo-item {
+            display: flex;
+            /* 使用Flexbox布局 */
+            align-items: center;
+            /* 确保子元素在交叉轴上居中对齐 */
+            gap: 10px;
+            /* 图片和标题之间的间距 */
+        }
+
+        .logo-item img {
+            height: 100px;
+            /* 设置图片高度 */
+            width: 100px;
+            /* 设置图片宽度 */
+        }
+
+        .grid-item h1 {
+            margin: 0;
+            font-size: 60px;
+            /* 移除标题的默认外边距 */
+
+        }
+
+        .grid-item h2 {
+            margin: 30;
+            font-size: 25px;
+            /* 移除标题的默认外边距 */
+
+        }
+
+        .grid-item h3 {
+            margin: 0;
+            font-size: 20px;
+            /* 移除标题的默认外边距 */
+
+        }
+
+        table {
+            text-align: left;
+            padding: 30px;
+        }
+
+        table td {
+            text-align: left;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item">
+            <div class="logo-item">
+                <p>
+                    </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="images/logo.jpg" alt="Logo" />
+                <h1>中央美术学院</h1>
+
+            </div>
+
+        </div>
+        <div class="grid-item">
+            <h2>2024年4月27日 星期六 14:30:21</h2>
+            <h2>震古烁今-2024年艺术品竞拍会</h2>
+
+        </div>
+
+        <div class="grid-item">
+            <hr>
+        </div>
+        <div class="grid-item">
+            <hr>
+            <p>
+        </div>
+        <div class="grid-item">
+            <img src="images/2.jpg" alt="Logo" />
+        </div>
+        <div class="grid-item">
+            <div>
+                <table border="0">
+                    <tr>
+                        <td>
+                            <h3>Lot 001</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>空山秋冥图</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>作者：空山秋冥图</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>材质：</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>尺寸：</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>RMB：1000</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>HKD：1200</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>USD：100</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>EUR：200</h3>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
