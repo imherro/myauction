@@ -1,0 +1,3 @@
+[submodule "myauction"]
+	path = myauction
+	url = https://github.com/imherro/myauction.git
